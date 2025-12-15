@@ -33,3 +33,8 @@ A lightweight Chrome extension that allows you to search/prompt ChatGPT directly
 ## Troubleshooting
 - **Not injecting?** Ensure you are logged into ChatGPT. If you hit a login screen, log in, and the extension should try to inject your prompt once the chat interface loads (within 60 seconds).
 
+## Support
+
+If you find this extension useful, consider buying me a coffee!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-yellow.svg)](https://buymeacoffee.com/paraskoundal)
