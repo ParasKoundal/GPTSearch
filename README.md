@@ -1,4 +1,4 @@
-# GPT Search Extension
+# GPT Prompt from Searchbar Extension
 
 A lightweight Chrome extension that allows you to search/prompt ChatGPT directly from your browser's address bar (Omnibox).
 
