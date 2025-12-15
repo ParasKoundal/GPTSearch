@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "GPT Search",
+    "version": "1.0",
+    "description": "Quickly search ChatGPT from the address bar",
+    "permissions": [
+        "omnibox",
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+    ],
+    "omnibox": {
+        "keyword": "gpt"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chatgpt.com/*",
+                "https://chat.openai.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icon16.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icon16.png"
+        }
+    }
+}
